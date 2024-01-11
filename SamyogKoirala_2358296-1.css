@@ -1,0 +1,200 @@
+html{
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0;
+}
+body {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url(SamyogKoirala_2358296.jpeg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+.container {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    max-width: 750px;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px 10px 40px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    overflow-y: auto;
+    }
+
+main {
+    flex-grow: 1;
+    }
+
+h1 {
+    font-size:35px ;
+    background-color: #000000;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    color: #ffffff;
+}
+    
+h2{
+    text-align: center;
+    margin-top: 0;
+    color: #000080;
+}
+h3{
+    color: red;
+}
+form {
+    margin-bottom: 5px;
+}
+
+#input{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+input[type="text"] {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#weatherInfo {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #000000;
+    padding: 5px;
+    text-align: center;
+    color: #f3ebeb;
+    font-size: 14px;
+    margin-top: auto;
+  }
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 775px){
+    #weatherInfo {
+        font-size: 20px;
+    } 
+    h1 {
+        font: 23px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+ }
+
+@media (max-width: 660px) {
+    #weatherInfo {
+        font-size: 18px;
+    }
+    h1 {
+        font: 21px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 610px) {
+    #weatherInfo {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 570px) {
+    #weatherInfo {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    #weatherInfo {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    #weatherInfo {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    #weatherInfo {
+        font-size: 9px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 9px;
+    }
+}
